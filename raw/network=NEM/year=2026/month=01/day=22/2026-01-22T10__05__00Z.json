@@ -1,0 +1,783 @@
+{
+  "updated_at": "2026-01-22T10:05:00Z",
+  "network": "NEM",
+  "summary": {
+    "net_generation_mw": 27505.2,
+    "renewables_mw": 8603.2,
+    "renewables_pct": 31.3,
+    "demand_mw": 25656.1
+  },
+  "generation": [
+    {
+      "fueltech": "battery",
+      "label": "battery",
+      "power_mw": 1051.9,
+      "proportion_pct": 3.8,
+      "price_dollar_per_mwh": 100.86,
+      "total_energy_mwh": 87.7
+    },
+    {
+      "fueltech": "battery_discharging",
+      "label": "Battery (Discharging)",
+      "power_mw": 1143.8,
+      "proportion_pct": 4.2,
+      "price_dollar_per_mwh": 94.75,
+      "total_energy_mwh": 95.3
+    },
+    {
+      "fueltech": "bioenergy_biomass",
+      "label": "Bioenergy (Biomass)",
+      "power_mw": 65.5,
+      "proportion_pct": 0.2,
+      "price_dollar_per_mwh": 98.63,
+      "total_energy_mwh": 5.5
+    },
+    {
+      "fueltech": "coal_black",
+      "label": "Coal (Black)",
+      "power_mw": 11493.5,
+      "proportion_pct": 41.8,
+      "price_dollar_per_mwh": 92.09,
+      "total_energy_mwh": 957.8
+    },
+    {
+      "fueltech": "distillate",
+      "label": "Distillate",
+      "power_mw": 0,
+      "proportion_pct": 0,
+      "price_dollar_per_mwh": null,
+      "total_energy_mwh": 0
+    },
+    {
+      "fueltech": "gas_ccgt",
+      "label": "Gas (CCGT)",
+      "power_mw": 1349.4,
+      "proportion_pct": 4.9,
+      "price_dollar_per_mwh": 122.07,
+      "total_energy_mwh": 112.5
+    },
+    {
+      "fueltech": "gas_ocgt",
+      "label": "Gas (OCGT)",
+      "power_mw": 573.9,
+      "proportion_pct": 2.1,
+      "price_dollar_per_mwh": 124.39,
+      "total_energy_mwh": 47.8
+    },
+    {
+      "fueltech": "hydro",
+      "label": "Hydro",
+      "power_mw": 2017.1,
+      "proportion_pct": 7.3,
+      "price_dollar_per_mwh": 91.53,
+      "total_energy_mwh": 168.1
+    },
+    {
+      "fueltech": "solar_rooftop",
+      "label": "Solar (Rooftop)",
+      "power_mw": 21.3,
+      "proportion_pct": 0.1,
+      "price_dollar_per_mwh": 55,
+      "total_energy_mwh": 1.8
+    },
+    {
+      "fueltech": "solar_utility",
+      "label": "Solar (Utility)",
+      "power_mw": 1.8,
+      "proportion_pct": 0,
+      "price_dollar_per_mwh": 117.92,
+      "total_energy_mwh": 0.1
+    },
+    {
+      "fueltech": "wind",
+      "label": "Wind",
+      "power_mw": 5353.8,
+      "proportion_pct": 19.5,
+      "price_dollar_per_mwh": 50,
+      "total_energy_mwh": 446.2
+    },
+    {
+      "fueltech": "gas_wcmg",
+      "label": "Gas (Waste Coal Mine)",
+      "power_mw": 28.2,
+      "proportion_pct": 0.1,
+      "price_dollar_per_mwh": 135,
+      "total_energy_mwh": 2.3
+    },
+    {
+      "fueltech": "gas_recip",
+      "label": "Gas (Reciprocating)",
+      "power_mw": 0,
+      "proportion_pct": 0,
+      "price_dollar_per_mwh": null,
+      "total_energy_mwh": 0
+    },
+    {
+      "fueltech": "gas_steam",
+      "label": "Gas (Steam)",
+      "power_mw": 42,
+      "proportion_pct": 0.2,
+      "price_dollar_per_mwh": 59.55,
+      "total_energy_mwh": 3.5
+    },
+    {
+      "fueltech": "coal_brown",
+      "label": "Coal (Brown)",
+      "power_mw": 4363,
+      "proportion_pct": 15.9,
+      "price_dollar_per_mwh": 19.18,
+      "total_energy_mwh": 363.6
+    }
+  ],
+  "loads": [
+    {
+      "fueltech": "battery_charging",
+      "label": "Battery (Charging)",
+      "power_mw": 76.8,
+      "proportion_pct": 0.3,
+      "price_dollar_per_mwh": 132.9,
+      "total_energy_mwh": 6.4
+    },
+    {
+      "fueltech": "pumps",
+      "label": "Pumps",
+      "power_mw": 0,
+      "proportion_pct": 0,
+      "price_dollar_per_mwh": null,
+      "total_energy_mwh": 0
+    }
+  ],
+  "curtailment": [
+    {
+      "fueltech": "solar_utility",
+      "label": "Solar (Utility)",
+      "power_mw": 0,
+      "proportion_pct": 0
+    },
+    {
+      "fueltech": "wind",
+      "label": "Wind",
+      "power_mw": 265.5,
+      "proportion_pct": 1
+    }
+  ],
+  "emissions": {
+    "volume_tco2e_per_30m": 1369.5,
+    "intensity_kgco2e_per_mwh": 597.49
+  },
+  "regions": {
+    "NSW1": {
+      "price_dollar_per_mwh": 49.14,
+      "demand_mw": 8437.6,
+      "summary": {
+        "net_generation_mw": 8309.3,
+        "renewables_mw": 2265.2,
+        "renewables_pct": 27.3,
+        "demand_mw": 8437.6
+      },
+      "generation": [
+        {
+          "fueltech": "battery",
+          "label": "battery",
+          "power_mw": 256.4,
+          "proportion_pct": 3.1,
+          "price_dollar_per_mwh": 49.28,
+          "total_energy_mwh": 21.4
+        },
+        {
+          "fueltech": "battery_discharging",
+          "label": "Battery (Discharging)",
+          "power_mw": 257.2,
+          "proportion_pct": 3.1,
+          "price_dollar_per_mwh": 49.14,
+          "total_energy_mwh": 21.4
+        },
+        {
+          "fueltech": "bioenergy_biomass",
+          "label": "Bioenergy (Biomass)",
+          "power_mw": 28.2,
+          "proportion_pct": 0.3,
+          "price_dollar_per_mwh": 49.14,
+          "total_energy_mwh": 2.4
+        },
+        {
+          "fueltech": "coal_black",
+          "label": "Coal (Black)",
+          "power_mw": 5743.5,
+          "proportion_pct": 69.1,
+          "price_dollar_per_mwh": 49.14,
+          "total_energy_mwh": 478.6
+        },
+        {
+          "fueltech": "distillate",
+          "label": "Distillate",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "gas_ccgt",
+          "label": "Gas (CCGT)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "gas_ocgt",
+          "label": "Gas (OCGT)",
+          "power_mw": 44.1,
+          "proportion_pct": 0.5,
+          "price_dollar_per_mwh": 49.14,
+          "total_energy_mwh": 3.7
+        },
+        {
+          "fueltech": "hydro",
+          "label": "Hydro",
+          "power_mw": 430.4,
+          "proportion_pct": 5.2,
+          "price_dollar_per_mwh": 49.14,
+          "total_energy_mwh": 35.9
+        },
+        {
+          "fueltech": "solar_rooftop",
+          "label": "Solar (Rooftop)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": 49.17,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 1549.4,
+          "proportion_pct": 18.6,
+          "price_dollar_per_mwh": 49.14,
+          "total_energy_mwh": 129.1
+        }
+      ],
+      "loads": [
+        {
+          "fueltech": "battery_charging",
+          "label": "Battery (Charging)",
+          "power_mw": 0.7,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": 49.14,
+          "total_energy_mwh": 0.1
+        },
+        {
+          "fueltech": "pumps",
+          "label": "Pumps",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        }
+      ],
+      "curtailment": [
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0,
+          "proportion_pct": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 0,
+          "proportion_pct": 0
+        }
+      ],
+      "emissions": {
+        "volume_tco2e_per_30m": 434.6,
+        "intensity_kgco2e_per_mwh": 627.68
+      }
+    },
+    "QLD1": {
+      "price_dollar_per_mwh": 135,
+      "demand_mw": 9143,
+      "summary": {
+        "net_generation_mw": 9558.5,
+        "renewables_mw": 1683.7,
+        "renewables_pct": 17.6,
+        "demand_mw": 9143
+      },
+      "generation": [
+        {
+          "fueltech": "battery",
+          "label": "battery",
+          "power_mw": 479.2,
+          "proportion_pct": 5,
+          "price_dollar_per_mwh": 156.08,
+          "total_energy_mwh": 39.9
+        },
+        {
+          "fueltech": "battery_discharging",
+          "label": "Battery (Discharging)",
+          "power_mw": 572.3,
+          "proportion_pct": 6,
+          "price_dollar_per_mwh": 135,
+          "total_energy_mwh": 47.7
+        },
+        {
+          "fueltech": "bioenergy_biomass",
+          "label": "Bioenergy (Biomass)",
+          "power_mw": 37.3,
+          "proportion_pct": 0.4,
+          "price_dollar_per_mwh": 136.09,
+          "total_energy_mwh": 3.1
+        },
+        {
+          "fueltech": "coal_black",
+          "label": "Coal (Black)",
+          "power_mw": 5750,
+          "proportion_pct": 60.2,
+          "price_dollar_per_mwh": 135,
+          "total_energy_mwh": 479.2
+        },
+        {
+          "fueltech": "distillate",
+          "label": "Distillate",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "gas_ccgt",
+          "label": "Gas (CCGT)",
+          "power_mw": 1118.1,
+          "proportion_pct": 11.7,
+          "price_dollar_per_mwh": 135,
+          "total_energy_mwh": 93.2
+        },
+        {
+          "fueltech": "gas_ocgt",
+          "label": "Gas (OCGT)",
+          "power_mw": 499.3,
+          "proportion_pct": 5.2,
+          "price_dollar_per_mwh": 135,
+          "total_energy_mwh": 41.6
+        },
+        {
+          "fueltech": "gas_wcmg",
+          "label": "Gas (Waste Coal Mine)",
+          "power_mw": 28.2,
+          "proportion_pct": 0.3,
+          "price_dollar_per_mwh": 135,
+          "total_energy_mwh": 2.3
+        },
+        {
+          "fueltech": "hydro",
+          "label": "Hydro",
+          "power_mw": 470.6,
+          "proportion_pct": 4.9,
+          "price_dollar_per_mwh": 135.1,
+          "total_energy_mwh": 39.2
+        },
+        {
+          "fueltech": "solar_rooftop",
+          "label": "Solar (Rooftop)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 1.4,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": 135,
+          "total_energy_mwh": 0.1
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 602.1,
+          "proportion_pct": 6.3,
+          "price_dollar_per_mwh": 135,
+          "total_energy_mwh": 50.2
+        }
+      ],
+      "loads": [
+        {
+          "fueltech": "battery_charging",
+          "label": "Battery (Charging)",
+          "power_mw": 74.8,
+          "proportion_pct": 0.8,
+          "price_dollar_per_mwh": 135,
+          "total_energy_mwh": 6.2
+        },
+        {
+          "fueltech": "pumps",
+          "label": "Pumps",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        }
+      ],
+      "curtailment": [
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0,
+          "proportion_pct": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 0,
+          "proportion_pct": 0
+        }
+      ],
+      "emissions": {
+        "volume_tco2e_per_30m": 493.3,
+        "intensity_kgco2e_per_mwh": 619.31
+      }
+    },
+    "SA1": {
+      "price_dollar_per_mwh": 59.55,
+      "demand_mw": 1611,
+      "summary": {
+        "net_generation_mw": 1964.2,
+        "renewables_mw": 1349.8,
+        "renewables_pct": 68.7,
+        "demand_mw": 1611
+      },
+      "generation": [
+        {
+          "fueltech": "battery",
+          "label": "battery",
+          "power_mw": 310.5,
+          "proportion_pct": 15.8,
+          "price_dollar_per_mwh": 59.75,
+          "total_energy_mwh": 25.9
+        },
+        {
+          "fueltech": "battery_discharging",
+          "label": "Battery (Discharging)",
+          "power_mw": 308.4,
+          "proportion_pct": 15.7,
+          "price_dollar_per_mwh": 59.55,
+          "total_energy_mwh": 25.7
+        },
+        {
+          "fueltech": "distillate",
+          "label": "Distillate",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "gas_ccgt",
+          "label": "Gas (CCGT)",
+          "power_mw": 231.3,
+          "proportion_pct": 11.8,
+          "price_dollar_per_mwh": 59.55,
+          "total_energy_mwh": 19.3
+        },
+        {
+          "fueltech": "gas_ocgt",
+          "label": "Gas (OCGT)",
+          "power_mw": 30.5,
+          "proportion_pct": 1.6,
+          "price_dollar_per_mwh": 59.55,
+          "total_energy_mwh": 2.5
+        },
+        {
+          "fueltech": "gas_recip",
+          "label": "Gas (Reciprocating)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "gas_steam",
+          "label": "Gas (Steam)",
+          "power_mw": 42,
+          "proportion_pct": 2.1,
+          "price_dollar_per_mwh": 59.55,
+          "total_energy_mwh": 3.5
+        },
+        {
+          "fueltech": "solar_rooftop",
+          "label": "Solar (Rooftop)",
+          "power_mw": 18.4,
+          "proportion_pct": 0.9,
+          "price_dollar_per_mwh": 59.55,
+          "total_energy_mwh": 1.5
+        },
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0.4,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": 59.55,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 1022.7,
+          "proportion_pct": 52.1,
+          "price_dollar_per_mwh": 59.55,
+          "total_energy_mwh": 85.2
+        }
+      ],
+      "loads": [
+        {
+          "fueltech": "battery_charging",
+          "label": "Battery (Charging)",
+          "power_mw": 1.1,
+          "proportion_pct": 0.1,
+          "price_dollar_per_mwh": 59.55,
+          "total_energy_mwh": 0.1
+        }
+      ],
+      "curtailment": [
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0,
+          "proportion_pct": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 1.1,
+          "proportion_pct": 0.1
+        }
+      ],
+      "emissions": {
+        "volume_tco2e_per_30m": 11.6,
+        "intensity_kgco2e_per_mwh": 70.94
+      }
+    },
+    "TAS1": {
+      "price_dollar_per_mwh": 111.87,
+      "demand_mw": 1132,
+      "summary": {
+        "net_generation_mw": 928.5,
+        "renewables_mw": 928.5,
+        "renewables_pct": 100,
+        "demand_mw": 1132
+      },
+      "generation": [
+        {
+          "fueltech": "gas_ccgt",
+          "label": "Gas (CCGT)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "gas_ocgt",
+          "label": "Gas (OCGT)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "hydro",
+          "label": "Hydro",
+          "power_mw": 846.7,
+          "proportion_pct": 91.2,
+          "price_dollar_per_mwh": 111.87,
+          "total_energy_mwh": 70.6
+        },
+        {
+          "fueltech": "solar_rooftop",
+          "label": "Solar (Rooftop)",
+          "power_mw": 0.2,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": 111.87,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 81.5,
+          "proportion_pct": 8.8,
+          "price_dollar_per_mwh": 111.87,
+          "total_energy_mwh": 6.8
+        }
+      ],
+      "loads": [],
+      "curtailment": [
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0,
+          "proportion_pct": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 0,
+          "proportion_pct": 0
+        }
+      ],
+      "emissions": {
+        "volume_tco2e_per_30m": 0,
+        "intensity_kgco2e_per_mwh": 0
+      }
+    },
+    "VIC1": {
+      "price_dollar_per_mwh": 19.18,
+      "demand_mw": 5332.5,
+      "summary": {
+        "net_generation_mw": 6744.8,
+        "renewables_mw": 2376.1,
+        "renewables_pct": 35.2,
+        "demand_mw": 5332.5
+      },
+      "generation": [
+        {
+          "fueltech": "battery",
+          "label": "battery",
+          "power_mw": 5.8,
+          "proportion_pct": 0.1,
+          "price_dollar_per_mwh": 19.71,
+          "total_energy_mwh": 0.5
+        },
+        {
+          "fueltech": "battery_discharging",
+          "label": "Battery (Discharging)",
+          "power_mw": 5.9,
+          "proportion_pct": 0.1,
+          "price_dollar_per_mwh": 19.18,
+          "total_energy_mwh": 0.5
+        },
+        {
+          "fueltech": "coal_brown",
+          "label": "Coal (Brown)",
+          "power_mw": 4363,
+          "proportion_pct": 64.7,
+          "price_dollar_per_mwh": 19.18,
+          "total_energy_mwh": 363.6
+        },
+        {
+          "fueltech": "gas_ocgt",
+          "label": "Gas (OCGT)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "gas_steam",
+          "label": "Gas (Steam)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "hydro",
+          "label": "Hydro",
+          "power_mw": 269.3,
+          "proportion_pct": 4,
+          "price_dollar_per_mwh": 19.18,
+          "total_energy_mwh": 22.4
+        },
+        {
+          "fueltech": "solar_rooftop",
+          "label": "Solar (Rooftop)",
+          "power_mw": 2.7,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": 19.18,
+          "total_energy_mwh": 0.2
+        },
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": null,
+          "total_energy_mwh": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 2098.1,
+          "proportion_pct": 31.1,
+          "price_dollar_per_mwh": 19.18,
+          "total_energy_mwh": 174.8
+        }
+      ],
+      "loads": [
+        {
+          "fueltech": "battery_charging",
+          "label": "Battery (Charging)",
+          "power_mw": 0.2,
+          "proportion_pct": 0,
+          "price_dollar_per_mwh": 19.18,
+          "total_energy_mwh": 0
+        }
+      ],
+      "curtailment": [
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0,
+          "proportion_pct": 0
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 264.5,
+          "proportion_pct": 3.9
+        }
+      ],
+      "emissions": {
+        "volume_tco2e_per_30m": 430,
+        "intensity_kgco2e_per_mwh": 764.95
+      }
+    },
+    "WEM": {
+      "price_dollar_per_mwh": null,
+      "demand_mw": null,
+      "summary": {
+        "net_generation_mw": 0,
+        "renewables_mw": 0,
+        "renewables_pct": null,
+        "demand_mw": null
+      },
+      "generation": [],
+      "loads": [],
+      "curtailment": [
+        {
+          "fueltech": "solar_utility",
+          "label": "Solar (Utility)",
+          "power_mw": 0,
+          "proportion_pct": null
+        },
+        {
+          "fueltech": "wind",
+          "label": "Wind",
+          "power_mw": 0,
+          "proportion_pct": null
+        }
+      ],
+      "emissions": {
+        "volume_tco2e_per_30m": 0,
+        "intensity_kgco2e_per_mwh": null
+      }
+    }
+  }
+}
