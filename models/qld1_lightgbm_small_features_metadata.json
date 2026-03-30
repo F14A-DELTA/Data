@@ -1,0 +1,26 @@
+{
+  "region": "QLD1",
+  "model_name": "lightgbm_small_features",
+  "target_column": "QLD1_target_price_t_plus_6",
+  "feature_columns": [
+    "QLD1_price_dollar_per_mwh",
+    "QLD1_demand_mw",
+    "QLD1_renewables_pct",
+    "QLD1_price_lag_1",
+    "QLD1_price_lag_2",
+    "QLD1_price_lag_6",
+    "QLD1_price_lag_12",
+    "QLD1_demand_rollmean_6",
+    "QLD1_demand_rollmean_12",
+    "QLD1_wind_rollmean_6",
+    "QLD1_wind_rollmean_12",
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_business_hour"
+  ],
+  "validation_mae": 9.23018181595657,
+  "validation_rmse": 13.78054063640708,
+  "baseline_rmse": 15.504184878731122
+}
